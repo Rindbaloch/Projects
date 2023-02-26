@@ -26,4 +26,13 @@ public class GreetingResource {
     }
 
 
+    @GET
+    @Path("/help")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String help() {
+
+        return "Help me plzzzzzz.";
+    }
+
+
 }
